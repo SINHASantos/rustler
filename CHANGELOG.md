@@ -12,11 +12,21 @@ versions.
 
 ### Added
 
+### Fixed
+
+### Changed
+
+
+## [0.35.0] - 2024-10-15
+
+### Added
+
 - The resource type name can be overridden with
   `#[register_impl(name = "...")]` (#638)
 - Floats can be decoded from integers (#641, fixes #603)
 - Resource types can implement and use dynamic calls on NIF version 2.16 (#635)
 - `Encoder` and `Decoder` implementations for `Box<T>` (#644)
+- `Reference` type and `env.make_ref()` function (#657)
 
 ### Fixed
 
